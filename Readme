@@ -1,0 +1,53 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/mNaxAqQD)
+
+
+IT22208262 - P.Vithusha 
+Create React Countries API App : my-app
+
+A React app that allows users to search for and view country details using the REST Countries API.
+
+#Features 
+Search by Country Name: Search for countries.
+
+Filter by Region or Language: Filter countries by region or language.
+
+Country Details: View information such as name, capital, population, flag, and languages.
+
+#Installation
+Clone the Repository
+Install Dependencies - npm install
+Create a New React App - npx create-react-app my-app
+Start the App - npm start
+
+
+#API Endpoints Used
+GET /all: Get a list of all countries.
+
+GET /name/{name}: Search for a country by name.
+
+GET /region/{region}: Filter countries by region.
+
+GET /alpha/{code}: Get country details by code.
+
+#Run tests with - npm test
+
+
+Unit & Integration Tests - npm install --save-dev @testing-library/react @testing-library/jest-dom @testing-library/user-event
+
+unit test - header.test.jsx , login.test.jsx , Register.test.jsx
+
+integration teat - app.test , My collection test
+
+performance test - Home performanace test , header performance test
+
+##cypress - npm install cypress --save-dev || Cypress test.jsx
+
+Security test - Security route protection 
+
+#Deployment
+The app is deployed on Vercel - https://af-country-app-vithusha.vercel.app/
+
+# https://af-4p3d-vithushas-projects.vercel.app/
+
+#GitHub Repository use API link 
+React Countries API - https://restcountries.com/ 
